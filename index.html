@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Latte Cookie Kingdom</title>
+  </head>
+  <header>
+    <h1>Latte Cookie Kingdom</h1>
+    <h2><span id="user"></span>Help Latte Cookie Build Up Her Kingdom!</h2>
+  </header>
+  <body>
+    <p>Cookie Coins: <span id="cc">0</span></p>
+    <img
+      class="latte-cookie"
+      src="https://www.touchtapplay.com/wp-content/uploads/2021/08/Sprite_latte_4-600x600.png"
+      onclick="cookieCounter(1)"
+    />
+
+    <button onclick="buySugarGnome()">
+      Sugar Gnome Magic = <span id="sugarGnome">[5]</span> --
+      <span id="gnomes">0 </span>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

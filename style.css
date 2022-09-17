@@ -1,0 +1,24 @@
+body {
+  background: url(https://images2.alphacoders.com/122/1229217.png);
+}
+header {
+  text-align: center;
+  color: black;
+  background-color: rgba(255, 0, 217, 0.3);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 40px;
+}
+p {
+  color: rgb(81, 0, 24);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+.latte-cookie {
+  margin-left: 100px;
+}
+.latte-cookie:hover {
+  filter: brightness(120%) saturate(120%);
+}
